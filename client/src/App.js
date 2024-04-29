@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { useEffect } from "react";
-import style from "./style.module.css";
 import axios from "axios";
 
 function App() {
@@ -18,8 +17,8 @@ function App() {
 
   return (
     <>
-      <h1>{data}</h1>
-      <p>{data}This is you ip adress</p>
+      <h2>{data}</h2>
+      <p>{data}This is you ip adress MAN</p>
     </>
   );
 }
